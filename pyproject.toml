@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "partage-livres"
+version = "0.1.0"
+description = "Site de partage d'oeuvres littéraires"
+authors = ["Alexeï BOURSIER <alexei.boursier@saint-coeur.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
